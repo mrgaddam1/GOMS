@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\Pages\Customer\" />
+    <Folder Include="Components\Pages\Expenses\" />
+    <Folder Include="Components\Pages\UserLogin\" />
+    <Folder Include="Components\Pages\Orders\" />
+    <Folder Include="Controls\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
