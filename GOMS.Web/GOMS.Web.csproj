@@ -7,12 +7,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Components\Pages\UserLogin\**" />
+    <Content Remove="Components\Pages\UserLogin\**" />
+    <EmbeddedResource Remove="Components\Pages\UserLogin\**" />
+    <None Remove="Components\Pages\UserLogin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Components\Pages\Customer\" />
     <Folder Include="Components\Pages\Expenses\" />
-    <Folder Include="Components\Pages\UserLogin\" />
     <Folder Include="Components\Pages\Orders\" />
-    <Folder Include="Controls\" />
-    <Folder Include="Services\" />
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GOMS.Web.DataAccess\GOMS.Web.DataAccess.csproj" />
+    <ProjectReference Include="..\GOMS.Web.Infrastructure\GOMS.Web.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

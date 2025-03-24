@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOMS.Web.DataAccess", "..\G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOMS.Web.Common", "..\GOMS.Web.Common\GOMS.Web.Common.csproj", "{4D8AF6EE-96FE-42F9-B028-11E3EF947E3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOMS.Web.Infrastructure", "..\GOMS.Web.Infrastructure\GOMS.Web.Infrastructure.csproj", "{F5E0361F-1CB5-4CDB-819A-7FB878C0BD34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4D8AF6EE-96FE-42F9-B028-11E3EF947E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D8AF6EE-96FE-42F9-B028-11E3EF947E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D8AF6EE-96FE-42F9-B028-11E3EF947E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E0361F-1CB5-4CDB-819A-7FB878C0BD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E0361F-1CB5-4CDB-819A-7FB878C0BD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E0361F-1CB5-4CDB-819A-7FB878C0BD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E0361F-1CB5-4CDB-819A-7FB878C0BD34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

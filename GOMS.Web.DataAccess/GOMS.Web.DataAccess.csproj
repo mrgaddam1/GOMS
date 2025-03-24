@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Implementation\" />
-    <Folder Include="Interface\" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GOMS.Web.Core\GOMS.Web.Core.csproj" />
+    <ProjectReference Include="..\GOMS.Web.Shared\GOMS.Web.Shared.csproj" />
   </ItemGroup>
 
 </Project>
