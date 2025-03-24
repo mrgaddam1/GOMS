@@ -1,0 +1,44 @@
+﻿@using GOMS.Web.Components.Pages.DBHeader
+
+@using Microsoft.AspNetCore.Components.RenderTree
+@inherits LayoutComponentBase
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+
+
+
+    <header>
+        <GHeader />
+    </header>
+    <div class="page" style="margin-left:11px;padding-top:10px;">
+        <main role="main">
+            @Body
+        </main>
+    </div>
+
+<script src="_framework/blazor.web.js"></script>
+
+@* @code {
+    private string loginUserName;
+    private string authToken;
+    private bool isUserAuthorised = false;
+    bool firstRender = false;
+    protected override async Task OnInitializedAsync()
+    {
+        firstRender = true;      
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+         
+            if (firstRender)
+        {
+            authToken = await LocalStorage.GetItemAsync<string>("AuthToken");
+            if (authToken != null)
+            {
+                isUserAuthorised = true;
+                loginUserName = LocalStorage.GetItemAsync<string>("UserName").ToString();
+            }
+        }
+        StateHasChanged();  // Force UI to update after retrieving data
+    }
+} *@
+ 
